@@ -8,11 +8,11 @@ permalink: /docs/tutorials/virtualbox
 
 [VirtualBox](http://www.virtualbox.org) is software that runs on all operating systems and allows you to launch Linux as an application. It is then easy to start and stop Linux when you need and safe to cleanly remove at any time.
 
-We provide an Ubuntu "Natty" Linux (32 bit) machine with the latest TileMill release pre-installed and running when you boot up. This provides a great way for Windows users to learn and experiment with TileMill without having to upgrade their operating system.
+We provide an Ubuntu Linux (32 bit) machine with the latest TileMill release pre-installed and running when you boot up. This provides a great way for Windows users to learn and experiment with TileMill without having to upgrade their operating system.
 
 ## Getting Started
 
-First start [downloading the TileMill 0.6.0 VM](http://tilemill-vm.s3.amazonaws.com/TileMill-0.6.0-32bit.ova) (1.4 GB).
+First start [downloading the TileMill 0.7.0 VM](http://tilemill-vm.s3.amazonaws.com/TileMill-0.7.0.ova) (1.3 GB).
 
 Then make sure you have installed [VirtualBox 4.0.x](http://www.virtualbox.org/wiki/Downloads) or greater.
 
@@ -27,7 +27,7 @@ The new machine should now appear in your VirtualBox menu of machines. Boot the 
 
 The main account is an administrative user with the username "ubuntu" and password "ubuntu".
 
-After logging in you will find TileMill running at http://localhost:8889/ and to use it just open Firefox and view that url (there is a browser toolbar bookmark for you too).
+After logging in you will find a TileMill icon on the desktop. Double click it to start TileMill and it will then be available in a browser at http://localhost:8889/. To start making maps just open Firefox and view that url (there is a browser toolbar bookmark for you too).
 
 
 ## Next Steps
