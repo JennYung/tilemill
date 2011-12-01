@@ -31,7 +31,7 @@
         "sax": "0.1.x",
         "request": "1.9.x",
         "step": "0.0.x",
-        "tilelive": "~4.0.3",
+        "tilelive": "https://github.com/mapbox/tilelive.js/tarball/node-v6",
         "mapnik": "~0.6.0",
         "millstone": "https://github.com/mapbox/millstone/tarball/node-v6",
         "sphericalmercator": "~1.0.1",
