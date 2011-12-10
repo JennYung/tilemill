@@ -1,6 +1,8 @@
 var path = require('path');
 var fs = require('fs');
 
+var __dirname = "c:\\tilemill\\servers";
+
 models.Pages.prototype.sync = function(method, model, success, error) {
     if (method !== 'read') return error('Method not supported.');
     var filepath = path.resolve(path.join(__dirname, '..', '_posts', 'docs', 'manual'));

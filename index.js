@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 process.title = 'tilemill';
-
+process.env.HOME = "c:/tilemill/home";
+var __dirname = "c:\\tilemill";
 // This is necessary to make optimist not special-case into coffeescript as
 // certain node installs (e.g. ubuntu node ppa) do not use `node` as the binary
 // name.
