@@ -2,7 +2,6 @@ var fs = require('fs');
 var fsutil = require('../lib/fsutil');
 var path = require('path');
 var Step = require('step');
-var __dirname = "c:\\tilemill\commands";
 var defaults = JSON.parse(fs.readFileSync(
     path.resolve(__dirname + '/../lib/config.defaults.json'),
     'utf8'

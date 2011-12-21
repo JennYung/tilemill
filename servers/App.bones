@@ -2,7 +2,6 @@ var mapnik = require('mapnik');
 var fs = require('fs');
 var path = require('path');
 var env = process.env.NODE_ENV || 'development';
-var __dirname = "c:\\tilemill\\servers";
 
 var abilities = {
     tilemill: JSON.parse(fs.readFileSync(path.resolve(__dirname + '/../package.json'),'utf8')),
