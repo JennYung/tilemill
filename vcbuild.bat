@@ -1,4 +1,5 @@
-
+set PROJ_LIB=C:\dev2\proj\nad
+set GDAL_DATA=C:\dev2\gdal\data
 set NODE_PATH=%NODE_PATH%;c:\dev2\node-mapnik\lib;
 set NODE_PATH=%NODE_PATH%;c:\dev2\node-zipfile\lib;
 set NODE_PATH=%NODE_PATH%;c:\dev2\node-srs\lib;
